@@ -21,7 +21,7 @@ source(sourceFile)
 
 #analiza glownych skladowych
 pca <- prcomp(dtmTfidfBounds)
-x <- pca$X[,1]
+x <- pca$x[,1]
 y <- pca$x[,2]
 
 #przygotowanie legendy
